@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "EventMate Nhom 19",
+    "slug": "eventmate-nhom19",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "eventmate19",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.nhom19.eventmate",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "POST_NOTIFICATIONS"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.nhom19.eventmate"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "EventMate can dung camera de quet ma QR check-in su kien."
+        }
+      ],
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "demo-nhom19-eventmate"
+      }
+    }
+  }
+}

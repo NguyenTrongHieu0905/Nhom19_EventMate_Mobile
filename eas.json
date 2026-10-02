@@ -1,0 +1,26 @@
+{
+  "cli": {
+    "version": ">= 12.0.0"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_AI_MODE": "demo"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_AI_MODE": "cloud"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
